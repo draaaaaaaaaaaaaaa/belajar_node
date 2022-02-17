@@ -70,7 +70,7 @@ const server = http.createServer((req, res) => {
   // buat data respons berisi token dan userPass
   dataResponse = {
     token: dataHeader.authorization,
-    userPass,
+    userPass
   };
 
   // Kirim data berupa Json
